@@ -4,9 +4,12 @@ const Footer = () => (
   <footer className='footer'>
       <p>© {new Date().getFullYear()} Mmesoma Udensi</p>
 
-      <p className='footer__credit'>
-        Template by Raj Sheka
-      </p>
+      <a
+      href='https://github.com/rjshkhr/cleanfolio'
+      className='link footer__link'
+      >
+      Created By Raj Shekhar
+      </a>
     </footer>
 )
 
