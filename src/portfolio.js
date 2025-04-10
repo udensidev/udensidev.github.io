@@ -10,9 +10,9 @@ const about = {
   role: 'Data Engineer',
   description:
     'I\'m a data professional with a strong foundation in analytics and machine learning. I enjoy working with data from end to end—building ETL pipelines, creating data models, and uncovering insights through statistical analysis. I\'m fluent in Python, R, SQL, and comfortable working with cloud platforms. \n\nWhat sets me apart is my ability to bridge the gap between technical work and business impact. I love translating complex data into clear, actionable insights that help teams make better decisions.',
-  resume: 'https://example.com',
+  resume: 'https://github.com/udensidev/my-resume/blob/main/Mmesoma_Udensi_CV.pdf',
   social: {
-    linkedin: 'https://linkedin.com/mmesomaudensi',
+    linkedin: 'https://linkedin.com/in/mmesomaudensi',
     github: 'https://github.com/udensidev',
   },
 }
