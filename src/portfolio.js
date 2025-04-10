@@ -1,19 +1,19 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://udensidev.github.io',
+  title: 'MU.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Mmesoma Udensi',
+  role: 'Data Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'I\'m a data professional with a strong foundation in analytics and machine learning. I enjoy working with data from end to end—building ETL pipelines, creating data models, and uncovering insights through statistical analysis. I\'m fluent in Python, R, SQL, and comfortable working with cloud platforms. \n\nWhat sets me apart is my ability to bridge the gap between technical work and business impact. I love translating complex data into clear, actionable insights that help teams make better decisions.',
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://linkedin.com/mmesomaudensi',
+    github: 'https://github.com/udensidev',
   },
 }
 
@@ -21,51 +21,44 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Yelp Restaurant Business Intelligence',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Extracted and transformed 6M+ Yelp reviews into a star schema within Azure SQL, enabling BI insights to support new restaurant location decisions',
+    stack: ['Python', 'SQL', 'Azure'],
+    sourceCode: 'https://github.com/udensidev/',
+    livePreview: 'https://github.com/udensidev/',
   },
   {
-    name: 'Project 2',
+    name: 'Property Valuation Model',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Developed a property valuation model using linear regression and random forest models to predict property prices in Cook County, IL with high accuracy. The model was trained on a dataset of over 50,000 properties and achieved an R-squared value of 0.85.',
+    stack: ['R'],
+    sourceCode: 'https://github.com/udensidev/property-valuation-model',
+    livePreview: 'https://github.com/udensidev/property-valuation-model',
   },
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'Python',
+  'R',
+  'SQL',
+  'SAS',
+  'Databricks',
+  'AWS',
+  'Azure',
+  'Knime',
+  'Tableau',
+  'MongoDB',
+  'Pandas',
   'Git',
   'CI/CD',
-  'Jest',
-  'Enzyme',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'mudensi2@illinois.edu',
 }
 
 export { header, about, projects, skills, contact }
