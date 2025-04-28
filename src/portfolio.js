@@ -32,7 +32,7 @@ const projects = [
     name: 'BitOracle Chatbot',
     description:
       'An interactive chatbot that fetches live Bitcoin price data and embeds it into AI prompts for dynamic reasoning. Users can ask trend-related questions, and the chatbot responds naturally using Google\'s Gemini Flash 2.0 model.',
-    stack: ['Python', 'SQL', 'Azure'],
+    stack: ['Python', 'Gradio', 'Google Gemini'],
     sourceCode: 'https://github.com/udensidev/bitoracle-chatbot',
     livePreview: 'https://github.com/udensidev/bitoracle-chatbot',
   },
