@@ -9,7 +9,7 @@ const about = {
   name: 'Mmesoma Udensi',
   role: 'Data Engineer',
   description:
-    'I\'m a data professional with a strong foundation in analytics and machine learning. I enjoy working with data from end to end—building ETL pipelines, creating data models, and uncovering insights through statistical analysis. I\'m fluent in Python, R, SQL, and comfortable working with cloud platforms. \n\n\nWhat sets me apart is my ability to bridge the gap between technical work and business impact. I love translating complex data into clear, actionable insights that help teams make better decisions.',
+    'I\'m a data professional with a strong foundation in analytics, machine learning, and end-to-end data workflows. I enjoy working across the full data lifecycle — building ETL pipelines, designing data models, and uncovering insights through statistical analysis. I\'m fluent in Python, R, and SQL, and comfortable working with cloud platforms. What sets me apart is my ability to bridge the gap between technical work and business impact. I thrive on translating complex data into clear, actionable insights that help teams make better decisions. I\'m passionate about using data not just to answer questions, but to drive strategy and create real-world value.',
   resume: '/files/Mmesoma_Udensi_CV.pdf',
   social: {
     linkedin: 'https://linkedin.com/in/mmesomaudensi',
