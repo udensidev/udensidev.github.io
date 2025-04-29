@@ -23,7 +23,7 @@ const projects = [
   {
     name: 'News Sentiment Pipeline',
     description:
-      'This projeect scrapes crypto and finance news from CoinDesk, summarizes the articles using a fine-tuned BART model, and analyzes their sentiment with a lightweight RoBERTa classifier. Articles are ranked based on sentiment scores',
+      'This project scrapes crypto and finance news from CoinDesk, summarizes the articles using a fine-tuned BART model, and analyzes their sentiment with a lightweight RoBERTa classifier. Articles are ranked based on sentiment scores',
     stack: ['Python', 'Web Scraping', 'NLP'],
     sourceCode: 'https://github.com/udensidev/financial-news-sentiment',
     livePreview: 'https://github.com/udensidev/financial-news-sentiment',
@@ -52,6 +52,14 @@ const projects = [
     sourceCode: 'https://github.com/udensidev/property-valuation-model',
     livePreview: 'https://github.com/udensidev/property-valuation-model',
   },
+  {
+    name: 'Disaster Tweet Classifier',
+    description:
+      'Built a Bernoulli Naive Bayes model capable of distinguishing between tweets that announce real emergencies and those that don\'t. The model achieved an F1-score of 0.79 on the test set.',
+    stack: ['Python', 'NLP', 'TF-IDF'],
+    sourceCode: 'https://github.com/udensidev/disaster-tweet-classification',
+    livePreview: 'https://github.com/udensidev/disaster-tweet-classification',
+  }
 ]
 
 const skills = [
