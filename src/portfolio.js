@@ -47,7 +47,7 @@ const projects = [
   {
     name: 'Yelp Restaurant Business Intelligence',
     description:
-      'Extracted and transformed 6M+ Yelp reviews into a star schema within Azure SQL, enabling BI insights to support new restaurant location decisions',
+      'Extracted and transformed 6M+ Yelp reviews into a star schema within Azure SQL, enabling BI insights to support new restaurant location decisions.',
     stack: ['Python', 'SQL', 'Azure'],
     sourceCode: 'https://github.com/udensidev/',
     livePreview: 'https://github.com/udensidev/',
