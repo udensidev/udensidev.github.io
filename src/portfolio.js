@@ -76,6 +76,7 @@ const skills = [
   'Python',
   'R',
   'SQL',
+  'HCL',
   'JSONpath',
   'PySpark',
   'SAS',
