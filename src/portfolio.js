@@ -68,6 +68,8 @@ const skills = [
   'Python',
   'R',
   'SQL',
+  'JSONpath',
+  'JSONata',
   'SAS',
   'Databricks',
   'AWS',
@@ -78,6 +80,8 @@ const skills = [
   'Pandas',
   'Git',
   'CI/CD',
+  'Docker'
+  
 ]
 
 const contact = {
