@@ -18,8 +18,16 @@ const about = {
 }
 
 const projects = [
-  // projects can be added an removed
+  // projects can be added and removed
   // if there are no projects, Projects section won't show up
+  {
+    name: 'AWS Marketing Offers Pipeline',
+    description:
+      'A real-time, serverless data pipeline built with AWS Kinesis, Lambda, DynamoDB, and S3 to simulate user browsing activity and generate targeted marketing offers. Transformed data is cataloged with AWS Glue and can be queried using Athena. Infrastructure is fully provisioned with Terraform and automated via Makefile.',
+    stack: ['AWS', 'Terraform', 'Makefile'],
+    sourceCode: 'https://github.com/udensidev/aws-marketing-offer-pipeline',
+    livePreview: 'https://github.com/udensidev/aws-marketing-offer-pipeline',
+  },
   {
     name: 'News Sentiment Pipeline',
     description:
