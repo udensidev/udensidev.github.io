@@ -23,7 +23,7 @@ const projects = [
   {
     name: 'AWS Marketing Offers Pipeline',
     description:
-      'A real-time, serverless data pipeline built with AWS Kinesis, Lambda, DynamoDB, and S3 to simulate user browsing activity and generate targeted marketing offers. Transformed data is cataloged with AWS Glue and can be queried using Athena. Infrastructure is fully provisioned with Terraform and automated via Makefile.',
+      'A real-time, serverless data pipeline built with AWS Kinesis, Lambda, DynamoDB, and S3 to simulate user browsing activity and generate targeted marketing offers.',
     stack: ['AWS', 'Terraform', 'Makefile'],
     sourceCode: 'https://github.com/udensidev/aws-marketing-offer-pipeline',
     livePreview: 'https://github.com/udensidev/aws-marketing-offer-pipeline',
@@ -31,7 +31,7 @@ const projects = [
   {
     name: 'News Sentiment Pipeline',
     description:
-      'This project scrapes crypto and finance news from CoinDesk, summarizes the articles using a fine-tuned BART model, and analyzes their sentiment with a lightweight RoBERTa classifier. Articles are ranked based on sentiment scores',
+      'This project scrapes crypto and finance news from CoinDesk, summarizes the articles using a fine-tuned BART model, and analyzes their sentiment with a lightweight RoBERTa classifier. Articles are ranked based on sentiment scores.',
     stack: ['Python', 'Web Scraping', 'NLP'],
     sourceCode: 'https://github.com/udensidev/financial-news-sentiment',
     livePreview: 'https://github.com/udensidev/financial-news-sentiment',
