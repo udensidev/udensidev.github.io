@@ -55,7 +55,7 @@ const projects = [
   {
     name: 'Property Valuation Model',
     description:
-      'Developed a property valuation model using linear regression and random forest models to predict property prices in Cook County, IL with high accuracy. The model was trained on a dataset of over 50,000 properties and achieved an R-squared value of 0.85.',
+      'Developed a property valuation model using linear regression and random forest models to predict property prices in Cook County, IL with high accuracy. The model was trained on a dataset of over 50,000 properties and achieved an R-squared value of 0.84.',
     stack: ['R'],
     sourceCode: 'https://github.com/udensidev/property-valuation-model',
     livePreview: 'https://github.com/udensidev/property-valuation-model',
