@@ -31,7 +31,7 @@ const projects = [
   {
     name: 'News Sentiment Pipeline',
     description:
-      'This project scrapes crypto and finance news from CoinDesk, summarizes the articles using a fine-tuned BART model, and analyzes their sentiment with a lightweight RoBERTa classifier. Articles are ranked based on sentiment scores.',
+      'This project scrapes crypto and finance news from CoinDesk, summarizes the articles using a fine-tuned BART model, and analyzes their sentiment with a lightweight FinBERT classifier. Articles are ranked based on sentiment scores.',
     stack: ['Python', 'Web Scraping', 'NLP'],
     sourceCode: 'https://github.com/udensidev/financial-news-sentiment',
     livePreview: 'https://github.com/udensidev/financial-news-sentiment',
