@@ -29,6 +29,14 @@ const projects = [
     livePreview: 'https://github.com/udensidev/aws-marketing-offer-pipeline',
   },
   {
+    name: 'University Support Service Publisher',
+    description:
+      'A Python-based ETL pipeline to support Credential Engine’s mission of enhancing data transparency in education. Developed a Flask app that enabled universities to standardize and publish support service data in CTDL-compliant formats.',
+    stack: ['Python', 'Flask', 'Postman'],
+    sourceCode: 'https://github.com/udensidev/credential-engine-support-service-publisher',
+    livePreview: 'https://github.com/udensidev/credential-engine-support-service-publisher',
+  },
+  {
     name: 'News Sentiment Pipeline',
     description:
       'This project scrapes crypto and finance news from CoinDesk, summarizes the articles using a fine-tuned BART model, and analyzes their sentiment with a lightweight FinBERT classifier. Articles are ranked based on sentiment scores.',
@@ -77,13 +85,10 @@ const skills = [
   'R',
   'SQL',
   'NoSQL',
-  'Apache Spark',
+  'Spark',
   'Airflow',
   'AWS',
   'dbt',
-  'HCL',
-  'JSONpath',
-  'PySpark',
   'SAS',
   'Databricks',
   'Hadoop',
@@ -91,9 +96,7 @@ const skills = [
   'Terraform',
   'KNIME',
   'Tableau',
-  'Power BI',
   'MongoDB',
-  'Pandas',
   'Git',
   'CI/CD',
   'Docker'
