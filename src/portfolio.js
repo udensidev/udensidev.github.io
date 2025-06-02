@@ -31,7 +31,7 @@ const projects = [
   {
     name: 'University Support Service Publisher',
     description:
-      'A Python-based ETL pipeline to support Credential Engine’s mission of enhancing data transparency in education. Developed a Flask app that enabled universities to standardize and publish support service data in CTDL-compliant formats.',
+      'A Python-based ETL pipeline to support Credential Engine’s mission of enhancing data transparency in education. Developed a Flask app that enables universities to standardize and publish support service data in CTDL-compliant formats.',
     stack: ['Python', 'Flask', 'Postman'],
     sourceCode: 'https://github.com/udensidev/credential-engine-support-service-publisher',
     livePreview: 'https://github.com/udensidev/credential-engine-support-service-publisher',
